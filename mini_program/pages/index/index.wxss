@@ -1,0 +1,193 @@
+/**index.wxss**/
+.container{
+  display: block;
+  flex-direction: row;
+  height: 1500rpx;
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 12px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+
+.weui-search-bar {
+  position: relative;
+  padding: 4px 6px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #EFEFF4;
+  border-top: 1rpx solid #D7D6DC;
+  border-bottom: 1rpx solid #D7D6DC;
+}
+
+.weui-icon-search {
+  margin-right: 6px;
+}
+
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.weui-search-bar__text {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.weui-search-bar__form {
+  position: relative;
+  flex: auto;
+  border-radius: 20px;
+  background: #FFFFFF;
+  border: 1rpx solid #E6E6EA;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 18px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.weui-icon-clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 7px 8px;
+  font-size: 0;
+}
+.weui-search-bar__label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 25px;
+  text-align: center;
+  color: #9B9B9B;
+  background: #FFFFFF;
+  line-height: 20px;
+}
+.weui-search-bar__cancel-btn {
+  margin-left: 10px;
+  line-height: 22px;
+  color: #09BB07;
+  white-space: nowrap;
+}
+
+.itemgrids{
+  border-top: 1rpx solid #D9D9D9;
+  border-left: 1rpx solid #D9D9D9;
+}
+
+.itemgrid{
+  position: relative;
+  float: left;
+  padding: 40rpx 20rpx;
+  width: 33.3333333333%;
+  box-sizing: border-box;
+  border-right: 1rpx solid #D9D9D9;
+  border-bottom: 1rpx solid #D9D9D9;
+}
+
+.itemgrid_active{
+  background-color: #ECECEC
+}
+
+.itemgrid_icon{
+  display: block;
+  width: 56rpx;
+  height: 56rpx;
+  margin: 0 auto;
+}
+
+.itemgrid_label{
+  margin-top: 10rpx;
+  display: block;
+  text-align: center;
+  color: #000000;
+  font-size: 28rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.push{
+  opacity: 0.7;
+}
+
+.add{  
+  color: #ffffff;  
+  position: fixed;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  bottom: 100rpx;  
+  right:100rpx;  
+  width: 135rpx;  
+  height: 135rpx;  
+  border-radius: 50%;  
+  font-size: 28rpx;  
+  background: #ffffff;  
+}
+
+.container{
+  height: 1500rpx;
+}
+.container .search{
+  width: 735rpx;
+  height: 65rpx;
+  padding: 12.5rpx 0 12.5rpx 15rpx;
+  background: #2A8CE5;
+}
+.container .search-left{
+  flex: 8;
+  background: #4EA3E7;
+  text-align: left;
+}
+.container .search-left input{
+  display: inline-block;
+  height: 65rpx;
+  font-size: 26rpx;
+}
+.search-placeholder{
+  color: #8CCEFD;
+  line-height: 20rpx;
+}
+.container .search .search-left image{
+  display: inline-block;
+  width: 35rpx;
+  height: 35rpx;
+  padding: 15rpx 15rpx 15rpx 20rpx;
+}
+.container .search .search-right{
+  flex: 1;
+}
+.container .search .search-right image{
+  width: 45rpx;
+  height: 45rpx;
+  padding: 10rpx;
+}
+
+.container{
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+/*feed-item part is in app.wxss for multiplexing*/

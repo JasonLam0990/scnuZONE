@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hole/hole",
+    "pages/chat/chat",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2c2c2c",
+    "navigationBarTitleText": "华师同校",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#515151",
+    "borderStyle": "#2c2c2c",
+    "list": [
+      {
+        "iconPath": "images/home_1.png",
+        "selectedIconPath": "images/home_2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/hole_1.png",
+        "selectedIconPath": "images/hole_2.png",
+        "pagePath": "pages/hole/hole",
+        "text": "树洞"
+      },
+      {
+        "iconPath": "images/message_1.png",
+        "selectedIconPath": "images/message_2.png",
+        "pagePath": "pages/chat/chat",
+        "text": "消息"
+      },
+      {
+        "iconPath": "images/addressbook_1.png",
+        "selectedIconPath": "images/addressbook_2.png",
+        "pagePath": "pages/more/more",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
